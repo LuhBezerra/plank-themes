@@ -1,0 +1,66 @@
+#Este arquivo foi gerado automaticamente pelo Plank.
+# 2020-07-08T16: 45: 39 + 0000
+
+[PlankTheme]
+#A circularidade dos cantos superiores.
+TopRoundness = 20
+#A circularidade dos cantos inferiores.
+BottomRoundness = 20
+# A espessura (em pixels) das linhas desenhadas.
+LineWidth = 1
+#A cor (RGBA) do traço externo.
+OuterStrokeColor = 25 ;; 25 ;; 25 ;; 0
+#A cor inicial (RGBA) do gradiente de preenchimento.
+FillStartColor = 15 ;; 15 ;; 15 ;; 200
+#A cor final (RGBA) do gradiente de preenchimento.
+FillEndColor = 15 ;; 15 ;; 15 ;; 200
+#A cor (RGBA) do traço interno.
+InnerStrokeColor = 50 ;; 50 ;; 50 ;; 0
+
+[PlankDockTheme]
+#O preenchimento nas bordas de encaixe esquerda / direita, em décimos de um por cento de IconSize.
+HorizPadding = 1,5
+#O preenchimento na borda superior do dock, em décimos de um por cento do IconSize.
+TopPadding = 1,5
+#O preenchimento na borda inferior do dock, em décimos de um por cento do IconSize.
+BottomPadding = 1,5
+#O preenchimento entre os itens no dock, em décimos de um por cento do IconSize.
+ItemPadding = 1
+#O tamanho dos indicadores de item, em décimos de um por cento de IconSize.
+IndicatorSize = 15
+#O tamanho da sombra do ícone atrás de cada item, em décimos de um por cento do IconSize.
+IconShadowSize = 1
+#A altura (em porcentagem de IconSize) para saltar um ícone quando o aplicativo define urgente.
+UrgentBounceHeight = 1.6666666666666667
+#A altura (em porcentagem de IconSize) para saltar um ícone ao iniciar um aplicativo.
+LaunchBounceHeight = 0,625
+#O valor de opacidade (0 a 1) para o qual o dock esmaece ao ocultá-lo.
+FadeOpacity = 1
+# A quantidade de tempo (em ms) para animações de clique.
+ClickTime = 300
+# A quantidade de tempo (em ms) para saltar um ícone urgente.
+UrgentBounceTime = 600
+# A quantidade de tempo (em ms) para saltar um ícone ao iniciar um aplicativo.
+LaunchBounceTime = 600
+# A quantidade de tempo (em ms) para animações de indicador de janela ativa.
+ActiveTime = 300
+# A quantidade de tempo (em ms) para deslizar os ícones para dentro / fora do dock.
+SlideTime = 300
+#O tempo (em ms) para fazer o fade in / out no esconderijo (se FadeOpacity for <1).
+FadeTime = 250
+#O tempo (em ms) para deslizar o encaixe para dentro / fora em um esconderijo (se FadeOpacity for 1).
+HideTime = 250
+#O tamanho do brilho urgente (mostrado quando o dock está oculto), em décimos de um por cento de IconSize.
+GlowSize = 30
+#O tempo total (em ms) para mostrar o brilho urgente do dock oculto.
+GlowTime = 10000
+#O tempo (em ms) de cada pulso do brilho urgente da doca oculta.
+GlowPulseTime = 2000
+# O hue-shift (-180 a 180) da cor do indicador urgente.
+UrgentHueShift = 150
+#O tempo (em ms) para mover um item para sua nova posição ou sua adição / remoção de / para o dock.
+ItemMoveTime = 450
+# Se o fundo e os ícones serão exibidos / ocultados com velocidades diferentes. A borda superior de ambos sairá / atingirá a borda da tela ao mesmo tempo.
+CascadeHide = true
+# A cor (RGBA) do emblema exibindo contagem urgente
+BadgeColor = 0 ;; 0 ;; 0 ;; 0
